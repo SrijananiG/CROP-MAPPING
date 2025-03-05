@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Set the map container size */
+#map {
+    height: 500px;
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+/* Style the search input field */
+#pac-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Polygon drawing tools container */
+#polygon-tools {
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
